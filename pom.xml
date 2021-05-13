@@ -28,7 +28,7 @@
 
         <!-- Docker build -->
 <!--        <docker.serverId>local_docker</docker.serverId>-->
-        <docker.image.prefix>bennyzhou911</docker.image.prefix>
+        <docker.image.prefix>eggnetech</docker.image.prefix>
         <docker.image.exposed.port>8080</docker.image.exposed.port>
         <dockerfile.plugin.version>1.4.13</dockerfile.plugin.version>
         <docker.image.tag>${project.version}</docker.image.tag>
@@ -36,6 +36,7 @@
     </properties>
 
     <build>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
