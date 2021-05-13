@@ -65,7 +65,7 @@ commands:
       - checkout:
           path: ~/spring-petclinic-msa
 
-      - setup_remote_docker
+      - setup_remote_docker:
         version: 19.03.12
 
       - run:
