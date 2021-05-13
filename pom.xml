@@ -28,7 +28,7 @@
 
         <!-- Docker build -->
 <!--        <docker.serverId>local_docker</docker.serverId>-->
-        <docker.image.prefix>eggnetech</docker.image.prefix>
+        <docker.image.prefix>bennyzhou911</docker.image.prefix>
         <docker.image.exposed.port>8080</docker.image.exposed.port>
         <dockerfile.plugin.version>1.4.13</dockerfile.plugin.version>
         <docker.image.tag>${project.version}</docker.image.tag>
@@ -88,7 +88,7 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <repository>${project.artifactId}</repository>
+                        <repository>${docker.image.prefix}/${project.artifactId}</repository>
 <!--                        <contextDirectory>${basedir}</contextDirectory>-->
                         <tag>${docker.image.tag}</tag>
                         <!-- 注意在本地.m2/settings.xml中设置dockerhub账号和密码 -->
