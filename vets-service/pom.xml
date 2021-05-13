@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.spring2go.samples.petclinic.vets</groupId>
+	<groupId>com.eggnetech.samples.petclinic.vets</groupId>
 	<artifactId>spring-petclinic-vets-service</artifactId>
 	<packaging>jar</packaging>
-	<description>Spring2Go PetClinic Vets Service</description>
+	<description>Eggnetech PetClinic Vets Service</description>
 
 	<parent>
-		<groupId>com.spring2go.samples</groupId>
+		<groupId>com.eggnetech.samples</groupId>
 		<artifactId>spring-petclinic-msa</artifactId>
 		<version>1.0.0.RELEASE</version>
 	</parent>
