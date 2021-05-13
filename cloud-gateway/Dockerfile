@@ -8,4 +8,4 @@ EXPOSE ${EXPOSED_PORT}
 # ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom","-jar","/usr/share/app.jar"]
 ENTRYPOINT exec java $JAVA_OPTS  -jar /usr/share/app.jar
 
-# Hello Spring-petclinic-cloud-gateway
+# Hello spring-petclinic-cloud-gateway
