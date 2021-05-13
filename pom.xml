@@ -87,6 +87,8 @@
                         </execution>
                     </executions>
                     <configuration>
+                        <username>bennyzhou911</username>
+                        <password>Etech~!@#2019</password>
                         <repository>${docker.image.prefix}/${project.artifactId}</repository>
 <!--                        <contextDirectory>${basedir}</contextDirectory>-->
                         <tag>${docker.image.tag}</tag>
